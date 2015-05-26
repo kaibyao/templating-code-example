@@ -1,0 +1,38 @@
+{
+  "name": "machete",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A project started on Hack Day 1, this server will serve our Mustache-lang'd, Hogan-compiled templates to our PHP webserver via Node.js. In refreshless mode, it will serve it directly to our webapp.",
+  "main": "core.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "hg",
+    "url": "ssh://hg@bitbucket.org/sproutsocial/machete"
+  },
+  "keywords": [
+    "hogan",
+    "mustache",
+    "machete"
+  ],
+  "author": "SproutSocial",
+  "license": "Copyright 2012 SproutSocial",
+  "dependencies": {
+    "mustache": "~0.7.0",
+    "underscore": "~1.3.3",
+    "hogan.js": "~2.0.0",
+    "q": "~0.8.8",
+    "async": "~0.2.5",
+    "rimraf": "~2.1.4"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-nodeunit": "~0.1.1",
+    "grunt-contrib-jshint": "~0.1.0",
+    "grunt-contrib-watch": "~0.1.4"
+  }
+}
